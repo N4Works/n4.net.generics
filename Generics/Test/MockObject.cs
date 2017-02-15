@@ -21,7 +21,10 @@ namespace N4.Net.Generics.Test
 
 		protected override void BeforeDispose()
 		{
-			this._checkExecution.Executed();
+			if (this._checkExecution != null)
+			{
+				this._checkExecution.Executed();
+			}
 			base.BeforeDispose();
 		}
 	}
