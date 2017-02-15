@@ -2,7 +2,7 @@ version: '{branch}.0.{build}'
 configuration: Release
 environment:
   COVERALLS_REPO_TOKEN:
-    secure: HVJ4FBs5iNkVWlv7VBKOvdMgcU3WY4a6EDG8D
+    secure: xCmocZHSOPq6/LH9xhPCbR4TG5PXIEvyuzBNbbiVm9fLA2kUqxcwU/wgljxhB+Tn
 before_build:
 - cmd: nuget restore n4.net.generics.sln
 build:
