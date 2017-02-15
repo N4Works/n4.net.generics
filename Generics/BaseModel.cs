@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace N4.Net.Generics
 {
 	/// <summary>
@@ -51,7 +52,7 @@ namespace N4.Net.Generics
 		/// </summary>
 		~BaseModel()
 		{
-			this.Dispose(true);
+			this.Dispose(false);
 			GC.SuppressFinalize(this);
 		}
 

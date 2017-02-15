@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace N4.Net.Generics.Test
+﻿namespace N4.Net.Generics.Test
 {
-	
-
-	public class MockObject : BaseModel
+    public class MockObject : BaseModel
 	{
 		private ICheckExecution _checkExecution;
 

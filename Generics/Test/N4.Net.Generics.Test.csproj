@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -46,9 +46,12 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\N4.Net.Generics.csproj">
-      <Project>{ED5530AE-047D-49DC-824E-0FEEBD25F8F6}</Project>
+      <Project>{688896fc-611c-456a-ab28-98e7760e1401}</Project>
       <Name>N4.Net.Generics</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
