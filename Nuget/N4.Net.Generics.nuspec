@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>N4.Net.Generics</id>
+        <version>1.0.0</version>
+        <title>N4.Net.Generics</title>
+        <authors>Tiago Resende</authors>
+        <owners>N4Works</owners>
+        <projectUrl>https://github.com/n4works/n4.net.generics.git</projectUrl>
+        <iconUrl>http://n4works.com/imagens/favicon.ico</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A collection of useful generics classes provided by N4Works.com for .net</description>
+        <summary>A collection of useful type generics classes provided by N4Works.com for .net</summary>
+        <tags>Generics N4Works</tags>
+    </metadata>
+    <files>
+        <file src="..\Generics\bin\Release\N4.Net.Generics.dll" target="lib\net45\N4.Net.Generics.dll" />
+        <file src="..\Generics\bin\Release\N4.Net.Generics.mdb" target="lib\net45\N4.Net.Generics.mdb" />
+        <file src="..\Generics\bin\Release\N4.Net.Generics.xml" target="lib\net45\N4.Net.Generics.xml" />
+    </files>
+</package>
