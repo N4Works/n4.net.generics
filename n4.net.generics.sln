@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N4.Net.Generics", "Generics\N4.Net.Generics.csproj", "{ED5530AE-047D-49DC-824E-0FEEBD25F8F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N4.Net.Generics.Test", "Generics\Test\N4.Net.Generics.Test.csproj", "{94D6963F-B898-4F86-800C-AB2A903B82A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED5530AE-047D-49DC-824E-0FEEBD25F8F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5530AE-047D-49DC-824E-0FEEBD25F8F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5530AE-047D-49DC-824E-0FEEBD25F8F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5530AE-047D-49DC-824E-0FEEBD25F8F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D6963F-B898-4F86-800C-AB2A903B82A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D6963F-B898-4F86-800C-AB2A903B82A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D6963F-B898-4F86-800C-AB2A903B82A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D6963F-B898-4F86-800C-AB2A903B82A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
