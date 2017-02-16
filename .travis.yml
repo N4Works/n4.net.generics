@@ -4,7 +4,7 @@ solution: n4.net.generics.sln
 
 install:
 
-  - nuget restore n4.net.extensions.sln
+  - nuget restore n4.net.generics.sln
 
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 
