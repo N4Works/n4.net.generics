@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Generics")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("N4.Net.Generic")]
+[assembly: AssemblyDescription("A collection of useful type generics classes provided by N4Works.com for .net")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Generics")]
-[assembly: AssemblyCopyright("Copyright ©  2017")]
+[assembly: AssemblyCompany("N4Works Ltda Me")]
+[assembly: AssemblyProduct("N4.Net.Generics")]
+[assembly: AssemblyCopyright("Todos os direitos reservados ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

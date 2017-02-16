@@ -15,7 +15,7 @@
     </metadata>
     <files>
         <file src="..\Generics\bin\Release\N4.Net.Generics.dll" target="lib\net45\N4.Net.Generics.dll" />
-        <file src="..\Generics\bin\Release\N4.Net.Generics.mdb" target="lib\net45\N4.Net.Generics.mdb" />
+        <file src="..\Generics\bin\Release\N4.Net.Generics.pdb" target="lib\net45\N4.Net.Generics.pdb" />
         <file src="..\Generics\bin\Release\N4.Net.Generics.xml" target="lib\net45\N4.Net.Generics.xml" />
     </files>
 </package>
