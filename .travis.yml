@@ -1,6 +1,6 @@
 language: csharp 
 
-solution: n4.net.extensions.sln
+solution: n4.net.generics.sln
 
 install:
 
