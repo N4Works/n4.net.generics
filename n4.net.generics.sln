@@ -9,6 +9,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{582BCE29-C916-4A4D-9349-5DDA8A663E55}"
 	ProjectSection(SolutionItems) = preProject
 		Nuget\N4.Net.Generics.nuspec = Nuget\N4.Net.Generics.nuspec
+		README.md = README.md
 	EndProjectSection
 EndProject
 Global
