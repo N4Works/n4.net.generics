@@ -77,5 +77,27 @@ namespace N4.Net.Generics.Test.Factory
             factory.Register<IMockObject, MockObject>();
             Assert.Throws<Exception>(() => factory.Create<IMockObject>());
         }
+
+        /// <summary>
+        /// Should be able to dispose a factory.
+        /// </summary>
+        [Test]
+        public void ShouldBeAbleToDisposeAFactory()
+        {
+            var factory = new AbstractFactory();
+            factory.Dispose();
+        }
+
+        /// <summary>
+        /// Should be able to unregister a contract type.
+        /// </summary>
+        [Test]
+        public void ShouldBeAbleToUnregisterAContract()
+        {
+            var factory = new AbstractFactory();
+            factory.Register<IMockObject, MockObject>();
+            factory.Unregister<IMockObject>();
+            Assert.Throws<KeyNotFoundException>(() => factory.Create<IMockObject>());
+        }
     }
 }
