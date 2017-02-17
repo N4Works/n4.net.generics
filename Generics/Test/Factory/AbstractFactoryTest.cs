@@ -99,5 +99,15 @@ namespace N4.Net.Generics.Test.Factory
             factory.Unregister<IMockObject>();
             Assert.Throws<KeyNotFoundException>(() => factory.Create<IMockObject>());
         }
+
+        /// <summary>
+        /// Should be able to get singleton instance of AbstractFactory.
+        /// </summary>
+        [Test]
+        public void ShouldBeAbleToGetSingletonInstanceOfFactory()
+        {
+            var factory = AbstractFactory.Instance;
+            Assert.NotNull(factory);
+        }
     }
 }

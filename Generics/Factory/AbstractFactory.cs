@@ -8,7 +8,8 @@ namespace N4.Net.Generics.Factory
     /// Class Factory.
     /// </summary>
     public class AbstractFactory : Disposable
-    {
+    { 
+        private static AbstractFactory _factory;
         private ConcurrentDictionary<Type, FactoryRegister> _registers;
 
         /// <summary>
@@ -17,6 +18,15 @@ namespace N4.Net.Generics.Factory
         public AbstractFactory()
         {
             this._registers = new ConcurrentDictionary<Type, FactoryRegister>();
+        }
+
+        /// <summary>
+        /// Get singleton instance for abstract factory.
+        /// </summary>
+        public static AbstractFactory Instance {
+            get {
+                return _factory ?? (_factory = new AbstractFactory());
+            }
         }
 
         /// <summary>
