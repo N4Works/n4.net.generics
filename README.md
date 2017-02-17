@@ -1,4 +1,4 @@
-﻿# n4.net.generics
+# n4.net.generics
 <a href="http://n4works.com" target="blank"><img align="right" width="256px" height="256px" src="http://n4works.com/imagens/favicon.ico"></a>
 
 
@@ -9,7 +9,7 @@
 
 
 __USAGE:__
-​
+
 __*Disposable class:*__
 
 ```csharp
@@ -92,5 +92,10 @@ factory.Register<IProvider, Provider>();
 factory.Register<IRepository, Repository>(typeof(IProvider));
 
 var repository = factory.Create<IRepository>();
+
+...
+
+var factory = AbstractFactory.Instance;
+factory.Register<IRepository, Repository>(typeof(IProvider));
 
 ```
