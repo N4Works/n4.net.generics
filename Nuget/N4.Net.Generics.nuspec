@@ -2,9 +2,9 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>N4.Net.Generics</id>
-        <version>1.0.0</version>
+        <version>1.1.0</version>
         <title>N4.Net.Generics</title>
-        <authors>Tiago Resende</authors>
+        <authors>Tiago Resende, Bernardo Esbérard</authors>
         <owners>N4Works</owners>
         <projectUrl>https://github.com/n4works/n4.net.generics.git</projectUrl>
         <iconUrl>http://n4works.com/imagens/favicon.ico</iconUrl>

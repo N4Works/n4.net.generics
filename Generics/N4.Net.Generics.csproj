@@ -42,7 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseModel.cs" />
+    <Compile Include="Disposable.cs" />
+    <Compile Include="Factory\AbstractFactory.cs" />
+    <Compile Include="Factory\FactoryRegister.cs" />
+    <Compile Include="Model\BaseModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -37,9 +37,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseModelTest.cs" />
-    <Compile Include="MockObject.cs" />
-    <Compile Include="ICheckExecution.cs" />
+    <Compile Include="Model\BaseModelTest.cs" />
+    <Compile Include="Factory\FactoryRegisterTest.cs" />
+    <Compile Include="Factory\AbstractFactoryTest.cs" />
+    <Compile Include="Mocks\IMockDependency.cs" />
+    <Compile Include="Mocks\IMockObject.cs" />
+    <Compile Include="Mocks\MockDependency.cs" />
+    <Compile Include="Mocks\MockObject.cs" />
+    <Compile Include="Mocks\ICheckExecution.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
